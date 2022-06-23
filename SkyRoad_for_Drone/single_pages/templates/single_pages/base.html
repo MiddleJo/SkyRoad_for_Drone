@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+     <title>SkyRoad_for_drone</title>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.18/css/jquery.dataTables.min.css" />
+     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+     <script src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
+     <script src="https://cdn.datatables.net/buttons/1.6.1/js/dataTables.buttons.min.js"></script>
+     <script>
+          function selectgoals(value){
+               var start_select = $('#id_start_field').val();
+               var changeItem = JSON.parse("{{ goals|escapejs }}")[start_select];
+               $('#id_goal_field').empty();
+               for(var count=0; count < changeItem.length; count++){
+                    var option = $("<option>"+changeItem[count]+"</option>");
+                    $('#id_goal_field').append(option);
+               }
+               }
+     </script>
+</head>
+<style>
+     #Title{
+          text-align: center;
+     }
+     #menu{
+          float: left;
+     }
+     #info{
+          float: right;
+     }
+</style>
+
+<body>
+     <div id = "Title">
+          <h2> 드론 관제 시스템 예시 </h2>
+     </div>
+     <div class="container-fluid">
+          <div class="row">
+               {% include 'single_pages/base_main.html' %}
+               <div class="col-lg-12" id = "menu">
+                    &nbsp; <a href='http://127.0.0.1:8000/add_drone'>드론 추가하기</a>
+               </div>
+          </div>
+     </div>
+</body>
+
+</html>
