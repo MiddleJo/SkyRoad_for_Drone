@@ -1,15 +1,16 @@
 # 드론 신속 배송을 위한 AI기반 최적 하늘길 구축 시스템
 
-![image](https://user-images.githubusercontent.com/96767467/175192578-7e58c1d6-1d2c-4fc3-8b17-04b0294a1a85.png)
+<img src = "https://user-images.githubusercontent.com/96767467/197766534-1d1c197f-8a47-4b73-849c-64f546aff05c.png" align = 'center' width = "95%" height = "53%">
 
+### 들어가기 전에
+- 발표 영상: https://www.youtube.com/watch?v=1p_6nrTzrTE&t=4s(코드설명 포함)
+            https://drive.google.com/drive/folders/1Lm65_Pvk4-3rgxlCFpe2iIDKUoPGbJ-c?usp=sharing(경진대회용 영상)
+- 드론 응급배송 인프라를 위한 AI기반 최적 하늘길 구축 프로젝트입니다.
+- 국토교통부, 중앙의료원, 기상청, 산림청 등의 공공데이터를 활용하였습니다.
+- 자세한 내용은 [소스코드](https://github.com/MiddleJo/SkyRoad_for_Drone/tree/main/%EC%BD%94%EB%93%9C) 혹은 pdf를 참고해 주시기 바랍니다.
+- 본 프로젝트는 2022년 8월에 "국토교통부 빅데이터 활용 경진대회"에서 우수상을 수상하였습니다.
+- 저작권에 유의하시기 바랍니다.
 
+---------- 작성중 -------------
 
-2022.05.09. ~ 2022.06.21. 까지 진행된 프로젝트 입니다.  
-중앙의료원, 기상청, 산림청, 국토교통부 등의 공공데이터를 활용하였습니다.
-자세한 내용은 ppt를 참고하시기 바랍니다.
-- 발표 영상: https://www.youtube.com/watch?v=1p_6nrTzrTE&t=4s
-- 드론 응급배송 인프라 부족 인식
-- 군집화를 통해 최적 위치에 드론공항 건설
-- DQN을 이용해 환경과 배터리 변수를 고려한 거시적 경로 산출
-- Informed RRT* 로 건물을 회피하는 미시적 경로 산출
-- django를 이용해 지도 및 경로 시각화 해주는 웹 구성
+### 목차
