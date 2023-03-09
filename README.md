@@ -37,7 +37,6 @@
 ## 2. 모델링
 
 ### 2-1 프로젝트 개요
-![슬라이드4]()
 
 <p align = 'center'>
 <img src = "https://user-images.githubusercontent.com/96767467/224081093-15d23491-6084-4277-a604-493c43003b7e.PNG" align = 'center' width = "95%" height = "53%">
