@@ -52,7 +52,7 @@
 <img align="left" width="180" height="180" src="https://user-images.githubusercontent.com/96767467/175253262-f4614359-abd2-4839-b8d3-0f7b8dd32f53.jpg" />
 
 - 조남현(CHO NAM HYEON)</br>
-- 변수 개발, 시계열 모델</br></br></br>
+- 기획, 군집분석, 미시적 경로(최단경로 알고리즘), 지도 골격화 및 DQN 설계, 비용함수, 웹 구현</br></br></br>
 MAIL : chonh0531@gmail.com</br>
 Github : https://github.com/MiddleJo </br></br>
 
@@ -60,7 +60,7 @@ Github : https://github.com/MiddleJo </br></br>
 <img align="left" width="180" height="180"  src="https://user-images.githubusercontent.com/102858692/161480452-fc8d952a-b964-4b44-8a9b-b5eab3652f89.png"/>
 
 - 박광민(PARK KWAMG MIN)</br>
-- DB구축, 발주 자동화</br></br></br>
+- DB구축, 시뮬레이션(UE4), 지리데이터 가공 및 시각화(Kepler.gl)</br></br></br>
 MAIL : qkrrhk@gmail.com</br>
 Github : https://github.com/KMP94</br></br>
 
@@ -68,7 +68,7 @@ Github : https://github.com/KMP94</br></br>
 <img align="left" width="180" height="180" src="https://user-images.githubusercontent.com/102858692/161481002-6c4f9f96-5ae6-4ea6-b2d0-d0a665b158fa.png"/>
 
 - 김기현(KIM GI HYUN)</br>
-- 변수 개발, 시계열 모델</br></br></br>
+- 팀장, 지도 골격화, 거시적 경로(강화학습 알고리즘), 보상체계 설정</br></br></br>
 MAIL : luckyboy3214@naver.com</br>
 Github : https://github.com/spiner321</br></br>
 
