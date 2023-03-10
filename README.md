@@ -15,8 +15,11 @@
 ### 목차
 [1. 기획 및 과제 정의](#1-기획)</br>
 [2. 모델링](#2-모델링)</br>
-[3. 군집화 및 인사이트 도출](#3-군집화-및-인사이트-도출)</br>
-[4. 팀원소개](#팀원-소개)</br>
+[3. 시스템 개발](#3-시스템-)</br>
+[4. 데모 시연](#4-데모-)</br>
+[5. 발전 가능성과 기대가치](#5-발전-가능성과-기대가치)</br>
+[6. 부가 설명](#부가-설명)</br>
+[7. 팀원소개](#팀원-소개)
 </br>
 
 ---
@@ -115,24 +118,74 @@ https://user-images.githubusercontent.com/96767467/224230498-2ce59f64-db73-4a5a-
 
 </br>
 
-<p>
+데모 시연에 대한 설명은 [발표영상](https://youtu.be/TZF6tO4_9ro) 뒷부분을 참고해주시기 바랍니다.
+시뮬레이션에 사용된 드론 스펙은 부록3을 참고해주시기 바랍니다.
 
+## 5. 발전 가능성과 기대가치
+
+<p>
+<img src = "https://user-images.githubusercontent.com/96767467/224231760-3bd0d0df-848a-4604-917a-2d0f445a368b.PNG" align = 'center' width = 95% height = "53%">
+</p>
+<p>
+현재는 데이터가 제한적이나, S-Map 등의 실제 3d 데이터와 드론 전문가와 협업한다면 더 고도화된 모델을 실현할 수 있습니다.
+</p>
+</br>
+
+<p>
+<img src = "https://user-images.githubusercontent.com/96767467/224232258-f28c456f-db51-47f9-a55e-eb509e78ec58.PNG" align = 'center' width = 95% height = "53%">
+</p>
+<p>
+앞서 말씀드린 것들이 개선되고 이 인프라가 실현된다면 응급상황시 골든타임을 맞추지 못해 사망하던 20%의 응급환자를 살릴 수 있고,</br>
+이 프로젝트는 UAM으로의 확장 가능성도 가지고 있기에 가치가 있습니다.
+</p>
+</br>
+
+## 부가 설명
+
+### 부록1. 드론 공항 설치
+
+<p>
+<img src = "https://user-images.githubusercontent.com/96767467/224233517-a0fe3cca-a247-4ee0-a832-69030a4e5c94.PNG" align = 'center' width = 95% height = "53%">
+</p>
+</br>
+
+<p>
+<img src = "https://user-images.githubusercontent.com/96767467/224233621-d3bac9b4-18ad-4ab2-9690-aa32070a6956.PNG" align = 'center' width = 95% height = "53%">
+</p>
+<p>
+실루엣 계수를 확인하여 군집 개수를 결정하였고, 임시 혈액원이 될 대표 병원들은 위와 같은 기준으로 결정되었습니다.
 </p>
 
 
+### 부록2. 거시적 경로
+
 <p>
-<img src = "https://user-images.githubusercontent.com/96767467/224230498-2ce59f64-db73-4a5a-8590-56f01767194c.mp4" align = 'center' width = 95% height = "53%">
+<img src = "https://user-images.githubusercontent.com/96767467/224234064-206f539b-6ae4-4433-92c7-2547203d071e.PNG" align = 'center' width = 95% height = "53%">
 </p>
+<p>
+DQN은 보상체계를 학습하며 최상의 경로를 선택하므로, 보상체계에 사용될 비용 함수가 필요합니다.
+</p>
+</br>
 
+<p>
+<img src = "https://user-images.githubusercontent.com/96767467/224234326-a8208a29-3aaf-4340-a431-786770f85485.PNG" align = 'center' width = 95% height = "53%">
+</p>
+<p>
+드론 도메인 지식에 따라, 이와 같은 가정을 하고 실험하였습니다.
+</p>
+</br>
 
-
+<p>
+<img src = "https://user-images.githubusercontent.com/96767467/224234499-799c049c-200d-4253-9faf-12e90745ae0c.PNG" align = 'center' width = 95% height = "53%">
+</p>
+<p>
+대략적인 영향도만 있다면 보상체계를 설립할 수 있기 때문에, 우선 polifit 라이브러리를 통해 일차함수로 분석하였습니다.</br>
+강수는 기상청이 제공하는 등급으로 지수화 하였습니다.
+</p>
+</br>
 
 </br>
 </br>
-
-
----------- 작성중 -------------
-
 
 ## 팀원 소개
 ----
