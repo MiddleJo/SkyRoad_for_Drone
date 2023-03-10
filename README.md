@@ -110,11 +110,22 @@
 
 
 ## 4. 데모 시연
-<p>
-<img src = "https://user-images.githubusercontent.com/96767467/197756850-bacdd86f-82f5-4bb2-8912-b80c2595bc51.gif" align = 'center' width = 95% height = "53%">
-</p>
 
 https://user-images.githubusercontent.com/96767467/224230498-2ce59f64-db73-4a5a-8590-56f01767194c.mp4
+
+</br>
+
+<p>
+
+</p>
+
+
+<p>
+<img src = "https://user-images.githubusercontent.com/96767467/224230498-2ce59f64-db73-4a5a-8590-56f01767194c.mp4" align = 'center' width = 95% height = "53%">
+</p>
+
+
+
 
 </br>
 </br>
