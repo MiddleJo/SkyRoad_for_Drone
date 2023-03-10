@@ -198,6 +198,15 @@ DQN은 보상체계를 학습하며 최상의 경로를 선택하므로, 보상�
 </p>
 </br>
 
+### 부록3. 드론 스펙
+
+<p>
+<img src = "https://user-images.githubusercontent.com/96767467/224237260-0dc99287-87c2-460b-91ad-8430d6caf10c.PNG" align = 'center' width = 95% height = "53%">
+</p>
+
+[데모 영상](#4-데모-시연)으로 돌아가기
+
+
 </br>
 </br>
 
