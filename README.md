@@ -86,6 +86,7 @@
 </br>
 
 ### 3-2 하늘길 구축
+![1](https://user-images.githubusercontent.com/96767467/230790824-4dd8d830-452a-4dc4-9417-80932e89d816.gif)
 
 <p align = 'center'>
 <img src = "https://user-images.githubusercontent.com/96767467/224228688-dc83388c-d873-416f-bcf7-4b874417d2d1.PNG" align = 'center' width = "95%" height = "53%">
