@@ -95,7 +95,7 @@
 따라서 배터리, 환경 요소를 고려한 거시적 경로와 실제 장애물을 피해가는 미시적 경로를 따로 구성해야 합니다.
 </p>
 </br>
-
+ 
 <p align = 'center'>
 <img src = "https://user-images.githubusercontent.com/96767467/224229218-5038ab79-c29b-40f6-99d7-7172823b332e.PNG" align = 'center' width = "90%" height = "50%">
 </p>
