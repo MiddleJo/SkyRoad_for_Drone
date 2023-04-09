@@ -86,19 +86,18 @@
 </br>
 
 ### 3-2 하늘길 구축
-![1](https://user-images.githubusercontent.com/96767467/230790824-4dd8d830-452a-4dc4-9417-80932e89d816.gif)
 
 <p align = 'center'>
-<img src = "https://user-images.githubusercontent.com/96767467/224228688-dc83388c-d873-416f-bcf7-4b874417d2d1.PNG" align = 'center' width = "95%" height = "53%">
+<img src = "https://user-images.githubusercontent.com/96767467/230790824-4dd8d830-452a-4dc4-9417-80932e89d816.gif" align = 'center' width = "95%" height = "53%">
 </p>
 <p>
 좌측 그림은 위치상의 최단 경로가 최적의 경로가 되지는 않다는 것을 보여주고 있습니다. 붉은 영역을 지나는 드론은 장애요소로 인해 오히려 늦게 도착하는 것을 볼 수 있습니다.</br>
 따라서 배터리, 환경 요소를 고려한 거시적 경로와 실제 장애물을 피해가는 미시적 경로를 따로 구성해야 합니다.
 </p>
 </br>
- 
+
 <p align = 'center'>
-<img src = "https://user-images.githubusercontent.com/96767467/224229218-5038ab79-c29b-40f6-99d7-7172823b332e.PNG" align = 'center' width = "90%" height = "50%">
+<img src = "https://user-images.githubusercontent.com/96767467/230790887-ec366e01-2292-4af9-b81c-4b3f877e21a4.gif" align = 'center' width = "90%" height = "50%">
 </p>
 <p>
 거시적 경로는 미로찾기 강화학습 알고리즘인 DQN을, 미시적 경로는 최단경로 알고리즘인 Informed RRT* 알고리즘을 활용합니다.</br>
@@ -108,7 +107,7 @@
 </br>
 
 <p align = 'center'>
-<img src = "https://user-images.githubusercontent.com/96767467/224229727-78dea9cf-ff33-4b16-b656-d234789979eb.PNG" align = 'center' width = "90%" height = "50%">
+<img src = "https://user-images.githubusercontent.com/96767467/230790909-6060f7c8-3231-43cd-ad0d-2f0a299c5e57.gif" align = 'center' width = "90%" height = "50%">
 </p>
 <p>
 비용함수는 드론 도메인 지식을 바탕으로 건물, 산, 바람, 강수를 변수로 사용합니다.</br>
